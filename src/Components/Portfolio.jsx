@@ -46,7 +46,7 @@ const projectList = [
     title: "My Resume Site",
     description:
       "Created from Github's Javascript Codespaces (React). Includes my experiences and interests.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "http://ervinong.github.io/ervin-portfolio",
   },
   {
     title: "Art and Animation Projects",
