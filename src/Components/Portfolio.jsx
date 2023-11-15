@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Hera Solutions' Admin Panel",
     description:
-      "Designed and developed a dashboard for a startup based in Trondheim, Norway. The website is built with React and deployed on Vercel.",
+      "Designed and developed a dashboard for a startup based in Trondheim, Norway. The website is built with ReactJs, Next.js and Tailwind CSS.",
     url: "https://admin.herasolutions.no/",
   },
   {
@@ -46,7 +46,7 @@ const projectList = [
     title: "My Resume Site",
     description:
       "Created from Github's Javascript Codespaces (React). Includes my experiences and interests.",
-    url: "http://ervinong.github.io/ervin-portfolio",
+    url: "http://ervinong.github.io/my-portfolio",
   },
   {
     title: "Art and Animation Projects",
