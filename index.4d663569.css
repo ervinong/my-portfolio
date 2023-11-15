@@ -116,6 +116,12 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+  filter: brightness(80%);
+  transition: filter .3s;
+}
+
+img.socialIcon:hover {
+  filter: brightness(150%);
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
