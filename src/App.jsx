@@ -26,6 +26,7 @@ import "./styles.css";
 const siteProps = {
   name: "Ervin Ong",
   title: "Software Engineer & Data Analyst",
+  subtitle: "Data Analyst",
   email: "E0725470@U.NUS.EDU",
   gitHub: "ervinong",
   instagram: "",
