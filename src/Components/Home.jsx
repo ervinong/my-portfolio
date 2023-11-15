@@ -32,7 +32,7 @@ const Home = ({ name, title }) => {
         <h1 style={{ color: "white" }}>{name}</h1>
         <h2 style={{ color: "white" }}>{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "20rem", left: "15%" }}>
+      <div style={{ position: "absolute", bottom: "16rem", left: "15%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
     </section>
