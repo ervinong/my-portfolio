@@ -122,4 +122,10 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+  transition: filter 0.3s;
+  filter: brightness(80%);
+}
+
+img.socialIcon:hover {
+  filter: brightness(150%);
 }

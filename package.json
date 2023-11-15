@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://ervinong.github.io/ervin-portfolio",
+  "homepage": "http://ervinong.github.io/my-portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://ervinong.github.io/ervin-portfolio'",
+    "build-gh": "parcel build --public-url 'https://ervinong.github.io/my-portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
