@@ -28673,22 +28673,31 @@ const Home = ({ name , title  })=>{
                 lineNumber: 31,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#about",
                 style: {
+                    textDecoration: "none",
+                    cursor: "pointer",
                     position: "absolute",
                     bottom: "16rem",
                     left: "15%"
                 },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _downArrowSvgDefault.default),
-                    style: {
-                        height: "3rem",
-                        width: "3rem"
-                    },
-                    alt: imageAltText
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _downArrowSvgDefault.default),
+                        style: {
+                            height: "3rem",
+                            width: "3rem"
+                        },
+                        alt: imageAltText
+                    }, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 46,
+                        columnNumber: 11
+                    }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 36,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
@@ -28765,13 +28774,13 @@ const imageAltText = "campfire";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "Hera Solutions' Admin Panel",
+        title: "Hera Solutions",
         description: "Designed and developed a dashboard for a startup based in Trondheim, Norway. The website is built with ReactJs, Next.js and Tailwind CSS.",
         url: "https://admin.herasolutions.no/"
     },
     {
         title: "Namer App",
-        description: "Created a mobile app that generates random names for your next project. The app is built with Flutter and deployed to Github pages.",
+        description: "Created a mobile app that generates random names for your next idea. The app is built with Flutter and deployed to Github pages.",
         url: "https://ervinong.github.io/namer_app/#/"
     },
     {
@@ -28780,7 +28789,7 @@ const imageAltText = "campfire";
         url: "http://ervinong.github.io/my-portfolio"
     },
     {
-        title: "Art and Animation Projects",
+        title: "Art & Animation Projects",
         description: "Created a series of drawings and animations. The projects are built with Adobe Photoshop, GIMP and Blender.",
         url: "https://www.instagram.com/early.archive"
     }, 
