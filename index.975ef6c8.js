@@ -28780,16 +28780,16 @@ const imageAltText = "campfire";
     },
     {
         title: "Namer App",
-        description: "Created a mobile app that generates random names for your next idea. The app is built with Flutter and deployed to Github pages.",
+        description: "Created a mobile app that generates random names for your next idea. The app is built with Flutter and deployed to Github.",
         url: "https://ervinong.github.io/namer_app/#/"
     },
     {
         title: "My Resume Site",
-        description: "Created from Github's Javascript Codespaces (React). Includes my experiences and interests.",
+        description: "Created from Github's Javascript Codespaces (React). This site documents my experiences and interests.",
         url: "http://ervinong.github.io/my-portfolio"
     },
     {
-        title: "Art & Animation Projects",
+        title: "Art/Animation Projects",
         description: "Created a series of drawings and animations. The projects are built with Adobe Photoshop, GIMP and Blender.",
         url: "https://www.instagram.com/early.archive"
     }, 
