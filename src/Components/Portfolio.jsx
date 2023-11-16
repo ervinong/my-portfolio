@@ -31,7 +31,7 @@ const imageAltText = "campfire";
  */
 const projectList = [
   {
-    title: "Hera Solutions' Admin Panel",
+    title: "Hera Solutions",
     description:
       "Designed and developed a dashboard for a startup based in Trondheim, Norway. The website is built with ReactJs, Next.js and Tailwind CSS.",
     url: "https://admin.herasolutions.no/",
@@ -39,7 +39,7 @@ const projectList = [
   {
     title: "Namer App",
     description:
-      "Created a mobile app that generates random names for your next project. The app is built with Flutter and deployed to Github pages.",
+      "Created a mobile app that generates random names for your next idea. The app is built with Flutter and deployed to Github pages.",
     url: "https://ervinong.github.io/namer_app/#/",
   },
   {
@@ -49,7 +49,7 @@ const projectList = [
     url: "http://ervinong.github.io/my-portfolio",
   },
   {
-    title: "Art and Animation Projects",
+    title: "Art & Animation Projects",
     description:
       "Created a series of drawings and animations. The projects are built with Adobe Photoshop, GIMP and Blender.",
     url: "https://www.instagram.com/early.archive",
