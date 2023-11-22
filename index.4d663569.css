@@ -15,6 +15,22 @@ div#main {
   display: flex;
 }
 
+div.desktop_menu {
+  width: 100%;
+  z-index: 10;
+  background: #ffffffbf;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+div.hamburger {
+  display: none;
+}
+
 section {
   width: 100vw;
   position: relative;
@@ -74,6 +90,162 @@ p.large {
 
 p.small {
   font-size: 15px;
+}
+
+div.intro {
+  width: 30rem;
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+}
+
+div.blurb {
+  width: 50%;
+  text-align: center;
+  background-color: #fff;
+  margin: 3rem auto;
+  padding: 4rem;
+}
+
+ul.skills {
+  text-align: left;
+  columns: 2;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  font-size: 1.25rem;
+}
+
+div.portfolio {
+  flex-direction: row;
+  padding-top: 3rem;
+  display: flex;
+}
+
+div.campfire {
+  max-width: 40%;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  div.desktop_menu {
+    display: none;
+  }
+
+  div.hamburger {
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background: #ffffffbf;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem 87%;
+    font-size: 30px;
+    display: flex;
+    position: fixed;
+    top: 0;
+  }
+
+  div.mobile_menu {
+    width: calc(100% - 3rem);
+    z-index: 1;
+    background: #fff;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1.625rem 0;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  div.mobile_menu_overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background: #00000080;
+    position: absolute;
+  }
+
+  div.mobile_menu a {
+    color: #000;
+    text-align: center;
+    padding: .825rem;
+    display: block;
+  }
+
+  h1 {
+    font-size: 4.2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  p.large {
+    font-size: 15px;
+  }
+
+  div.intro {
+    width: 20rem;
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+  }
+
+  div.blurb {
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    margin: 3rem auto;
+    padding: 4rem;
+  }
+
+  ul.skills {
+    text-align: center;
+    columns: 1;
+    margin: 2rem -2rem 2rem -4.5rem;
+    font-size: 15px;
+    list-style-type: none;
+  }
+
+  p.detailOrQuote {
+    width: 120%;
+    margin-left: -4.15rem;
+    font-size: 15px;
+  }
+
+  div.portfolio {
+    flex-direction: column;
+    padding-top: 3rem;
+    display: flex;
+  }
+
+  div.campfire {
+    max-width: 80%;
+    align-self: center;
+  }
+
+  div.container {
+    grid-gap: 20px;
+    grid-template-columns: 330px;
+    margin: 20px auto;
+    display: grid;
+  }
+
+  div.container .box {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px 16px;
+    display: flex;
+  }
 }
 
 hr {
