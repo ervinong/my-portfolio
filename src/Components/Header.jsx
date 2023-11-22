@@ -1,30 +1,39 @@
-/**
- * Header component
- *
- * Top navigation bar for your site. Set to remain visible as the
- * user scrolls so that they can constantly reach any part of your page.
- */
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
   return (
-    <div
-      style={{
-        position: "fixed",
-        display: "flex",
-        justifyContent: "center",
-        gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
-        padding: "1rem",
-        top: 0,
-        width: "100%",
-        zIndex: 10,
-      }}
-    >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+    <div>
+      <div className="desktop_menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#footer">Contact</a>
+      </div>
+      <div className={`hamburger ${isMobileMenuOpen ? "open" : ""}`} onClick={toggleMobileMenu}>
+        {isMobileMenuOpen ? "✕" : "☰"}
+      </div>
+      {isMobileMenuOpen && (
+        <div className={`mobile_menu_overlay ${isMobileMenuOpen ? "open" : ""}`}>
+          <div className="mobile_menu">
+            <a href="#home" onClick={() => setIsMobileMenuOpen(false)}>
+              Home
+            </a>
+            <a href="#about" onClick={() => setIsMobileMenuOpen(false)}>
+              About
+            </a>
+            <a href="#portfolio" onClick={() => setIsMobileMenuOpen(false)}>
+              Portfolio
+            </a>
+            <a href="#footer" onClick={() => setIsMobileMenuOpen(false)}>
+              Contact
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
