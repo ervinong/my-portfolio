@@ -28682,13 +28682,7 @@ const Home = ({ name , title  })=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#about",
-                style: {
-                    textDecoration: "none",
-                    cursor: "pointer",
-                    position: "absolute",
-                    bottom: "16rem",
-                    left: "15%"
-                },
+                className: "arrow",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _downArrowSvgDefault.default),
@@ -28699,12 +28693,12 @@ const Home = ({ name , title  })=>{
                         alt: imageAltText
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 34,
+                        lineNumber: 25,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 33,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
