@@ -20,16 +20,7 @@ const Home = ({ name, title }) => {
         <h1 style={{ color: "white" }}>{name}</h1>
         <h2 style={{ color: "white" }}>{title}</h2>
       </div>
-      <a
-        href="#about"
-        style={{
-          textDecoration: "none",
-          cursor: "pointer",
-          position: "absolute",
-          bottom: "16rem",
-          left: "15%",
-        }}
-      >
+      <a href="#about" className="arrow">
         <div>
           <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
         </div>
