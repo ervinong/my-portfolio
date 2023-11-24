@@ -134,7 +134,7 @@ div.campfire {
   align-self: center;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
   div.desktop_menu {
     display: none;
   }
@@ -246,7 +246,7 @@ div.campfire {
 
   div.container {
     grid-gap: 20px;
-    grid-template-columns: 330px;
+    grid-template-columns: 330px 300px;
     margin: 20px auto;
     display: grid;
   }
@@ -262,7 +262,7 @@ div.campfire {
   }
 }
 
-@media (max-width: 468px) {
+@media (max-width: 720px) {
   div.desktop_menu {
     display: none;
   }
