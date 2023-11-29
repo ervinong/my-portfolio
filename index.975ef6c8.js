@@ -28755,18 +28755,18 @@ const imageAltText = "campfire";
 const projectList = [
     {
         title: "Hera Solutions",
-        description: "Designed and developed a dashboard for a startup based in Trondheim, Norway. The website is built with ReactJs, Next.js and Tailwind CSS.",
+        description: "Designed and developed a dashboard for a startup based in Norway. The website is built with ReactJs, Next.js and Tailwind CSS.",
         url: "https://admin.herasolutions.no/"
     },
     {
         title: "Namer App",
         description: "Created a mobile app that generates random names for your next idea. The app is built with Flutter and deployed to Github.",
-        url: "https://ervinong.github.io/namer_app/#/"
+        url: "https://ervinong.github.io/namer-app/#/"
     },
     {
-        title: "My Resume Site",
-        description: "Created from Github's Javascript Codespaces (React). This site documents my experiences and interests.",
-        url: "http://ervinong.github.io/my-portfolio"
+        title: "Conway's Game of Life",
+        description: "Implemented Conway's Game of Life, a zero-player game that does not require any input, using WebGPU.",
+        url: "https://ervinong.github.io/game-of-life/"
     },
     {
         title: "Art/Animation Projects",

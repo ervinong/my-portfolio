@@ -189,11 +189,11 @@ div.campfire {
   }
 
   h1 {
-    font-size: 3.2em;
+    font-size: 4.2em;
   }
 
   h2 {
-    font-size: .9em;
+    font-size: 1.2em;
   }
 
   h3 {
@@ -246,7 +246,7 @@ div.campfire {
 
   div.container {
     grid-gap: 20px;
-    grid-template-columns: 330px 300px;
+    grid-template-columns: 300px 300px;
     margin: 20px auto;
     display: grid;
   }
@@ -413,7 +413,7 @@ a:hover {
 
 .container {
   grid-gap: 20px;
-  grid-template-columns: 330px 300px;
+  grid-template-columns: 300px 300px;
   margin: 20px auto;
   display: grid;
 }
