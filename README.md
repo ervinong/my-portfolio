@@ -13,23 +13,23 @@ This portfolio site serves as a dynamic representation of my expertise in JavaSc
 
 Features
 
-Skills Section: Explore the various skills and technologies I specialize in. <br />
-Project Showcase: View detailed information about my featured projects, including descriptions, technologies used, and live demos. <br />
-Contact Information: Find my contact details and links to my professional profiles for networking opportunities. <br />
-Responsive Design: The site is built with a responsive design, ensuring optimal user experience across various devices. <br />
+- Skills Section: Explore the various skills and technologies I specialize in.
+- Project Showcase: View detailed information about my featured projects, including descriptions, technologies used, and live demos.
+- Contact Information: Find my contact details and links to my professional profiles for networking opportunities.
+- Responsive Design: The site is built with a responsive design, ensuring optimal user experience across various devices.
 
 Technologies Used
 
-React <br />
-JavaScript <br />
-HTML5 <br />
-CSS3 <br />
+- React
+- JavaScript
+- HTML5
+- CSS3
 
 Project Structure
 
-src/Components: Contains React components for different sections of the site. <br />
-src/images: Contains all image files used. <br />
-src/styles: Holds CSS files for styling components. <br />
+- src/Components: Contains React components for different sections of the site.
+- src/images: Contains all image files used.
+- src/styles: Holds CSS files for styling components.
 
 License
 
