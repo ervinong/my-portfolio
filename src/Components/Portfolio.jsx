@@ -5,10 +5,10 @@ const imageAltText = "campfire";
 
 const projectList = [
   {
-    title: "Hera Solutions",
+    title: "Trading Dashboard",
     description:
-      "Designed and developed a dashboard for a startup based in Norway. The website is built with ReactJs, Next.js and Tailwind CSS.",
-    url: "https://admin.herasolutions.no/",
+      "Designed and developed a trading dashboard that uses momentum prediction. The site is built with ReactJs, Next.js and Tailwind CSS.",
+    url: "https://portfolio-next-2tgtldmhh-ervinongs-projects.vercel.app/",
   },
   {
     title: "Namer App",
